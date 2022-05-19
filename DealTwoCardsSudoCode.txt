@@ -1,0 +1,13 @@
+REPEAT TWICE:
+    set a random number
+    REPEAT UNTIL RANDOM NUMBER IS NOT IN TEST ARRAY
+    check if the random number is in the test array
+        if:  not in the array { push random number to players hand }
+             then push random number to test array
+        else: pick a new random number
+    set a random number
+    REPEAT UNTIL RANDOM NUMBER IS NOT IN TEST ARRAY
+    check if the random number is in the test array
+        if:  not in the array { push random number to dealers hand }
+            then: push random number to test array
+        else: pick a new random number
